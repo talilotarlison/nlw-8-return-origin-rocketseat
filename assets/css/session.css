@@ -1,0 +1,281 @@
+
+/* session apresentação do site */
+main section {
+    background-color: var(--brand-green-light);
+    padding-top: 6rem;
+    width: 36rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0rem;
+}
+
+/* session apresentação do site */
+
+main section div.apresentacao h4 {
+    margin: 4rem 2rem;
+    margin-top: 6rem;
+    font-size: 1.6rem;
+    color: var(--brand-green);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+main section div.apresentacao h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+    margin-bottom: 3rem;
+}
+
+main section div.apresentacao p {
+    color: var(--gray-paragraph);
+    font-size: 1.8rem;
+    text-justify: auto;
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+main section div.apresentacao button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+
+    background-color: #00856F;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    padding: 1.6rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+}
+
+main>section>div>img {
+    margin-top: 2rem;
+}
+
+/* menu informações do site */
+
+section.infomacoes {
+    width: 35rem;
+    background-color: #ffffff;
+    padding: 3rem;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: solid rgba(128, 128, 128, 0.136) 1px;
+    border-radius: 0.6rem;
+
+    margin-top: -2rem;
+    /* margin-bottom: -10rem; */
+
+}
+
+section.infomacoes>div {
+    height: 20rem;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.infomacoes>div>h3 {
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+section.infomacoes>div>p {
+    margin-top: 2rem;
+    color: #00856F;
+}
+
+
+/* menu servço do site */
+.servicos {
+    background-color: var(--brand-green-light-02);
+    width: 100%;
+    margin-top: -30rem;
+    padding: 30rem 3rem 10rem 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 3rem;
+}
+
+.servicos>div.titulos>h3 {
+    margin: 4rem 2rem;
+    font-size: 1.8rem;
+    color: var(--brand-green);
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.servicos>div.titulos>h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+    margin-bottom: 3rem;
+
+}
+
+.servicos>div.box-servicos {
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 2rem;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.box-servicos > .checkmark {
+    color: #00856F;
+    font-size: 1.6rem;
+}
+
+.servicos>div.box-servicos>h4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+    margin-bottom: 3rem;
+    text-align: start;
+}
+
+.servicos>div.box-servicos>p {
+    color: var(--gray-paragraph);
+    font-size: 1.8rem;
+    text-justify: auto;
+    text-align: start;
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+.servicos>div.titulos{
+    width: 80%;
+    text-align: center;
+}
+
+/* menu sobre nos do site */
+.sobre{
+    padding-bottom: 3rem ;
+    background-color:var(--brand-beige);
+    width: 100%;
+}
+
+.sobre .sobre-nos h2{
+    padding: 1rem ;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+    margin-bottom: 3rem;
+}
+
+.sobre .sobre-nos h3{
+    margin: 4rem 2rem;
+    font-size: 1.8rem;
+    color: var(--brand-green);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sobre .sobre-nos p{
+    color: var(--gray-paragraph);
+    font-size: 1.6rem;
+    text-justify: auto;
+    text-align: start;
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+    padding: 3rem ;
+}
+
+.sobre img{
+    width: 40rem;
+    height: 35rem;
+}
+
+/* menu contato do site */
+
+.contato{
+  
+    padding-bottom: 2rem ;
+    background-color:var(--white-color);
+    width: 100%;
+}
+
+.contato h3{
+    margin: 4rem 2rem;
+    font-size: 1.8rem;
+    color: var(--brand-green);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contato h2{
+    width: 100%;
+    padding: 1rem ;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+    margin-bottom: 3rem;
+}
+
+.rua , .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.6rem 3rem;
+    gap: .6rem;
+    color: black;
+}
+
+.rua ion-icon, .email ion-icon {
+color: #00856F;
+} 
+
+.email > a{
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.479);
+    font-size: 2rem;
+}
+
+.rua > p{
+    font-size: 2rem;
+    color:  rgba(0, 0, 0, 0.479);
+}
+
+.contato button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+
+    background-color: #00856F;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    padding: 1.6rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    margin: 2rem auto;
+}
+
+.contato > img{
+    width: 40rem;
+    margin: 6rem 0 ;
+}
+

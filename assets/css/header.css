@@ -1,0 +1,105 @@
+
+/* header do site */
+header {
+    font-size: 1.6rem;
+    min-width: 45rem;
+    margin: 0 auto;
+    background-color: var(--brand-green-light);
+    padding: 1.6rem 2.2rem;
+    height: 6rem;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+header h2.logo {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+header h2.logo span {
+    color: var(--brand-green);
+    font-weight: 700;
+}
+
+.btn-mobile {
+    opacity: 0.9;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-mobile img {
+    width: 3.7rem;
+}
+
+.btn-mobile:hover {
+    opacity: 0.6;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+header a {
+    display: none;
+}
+
+/* menu mobile */
+menu {
+    background-color: var(--brand-green);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 6rem;
+
+    display: none;
+    padding-top: 6rem;
+}
+
+menu.menu-mobile nav.nav-mobile a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: 900;
+    display: block;
+}
+
+menu.menu-mobile nav.nav-mobile a:hover {
+    opacity: 0.8;
+}
+
+menu.menu-mobile a.btn-agendar {
+    text-decoration: none;
+    display: block;
+    background-color: #ffffff;
+    width: 60%;
+    margin: 4rem;
+    padding: 1.8rem 1rem;
+    margin: 0 auto;
+    border-radius: 2.9rem;
+    color: #00856F;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+menu.menu-mobile a.btn-agendar:hover {
+    opacity: 0.8;
+}
+
+menu.menu-mobile div.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2.4rem;
+    color: var(--brand-green-light);
+    gap: 2rem;
+}
+
+/* menu mobile */
+

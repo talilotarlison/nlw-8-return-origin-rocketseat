@@ -1,0 +1,281 @@
+/* reponsivida do site */
+
+@media (min-width: 480px) {
+    header {
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* reponsivida do site */
+@media (min-width: 720px) {
+    header {
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-desktop ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-desktop ul li a {
+        text-decoration: none;
+        color: var(--brand-green);
+        font-weight: 600;
+    }
+
+    .nav-desktop ul li a:hover {
+        font-weight: 600;
+       opacity: 0.7;
+    }
+
+    header a {
+        display: block;
+    }
+
+    header .btn-mobile {
+        display: none;
+    }
+
+    header a.btn-agendar-desktop {
+        border: solid 2px var(--brand-green);
+        padding: 1rem;
+        color: var(--brand-green);
+        border-radius: 5rem;
+        text-decoration: none;
+    }
+
+    /* apresentação */
+    main section {
+        width: 90%;
+        text-align: left;
+    }
+
+    div.apresentacao-inicial {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .apresentacao {
+        text-align: left;
+        width: 50%;
+    }
+
+    .apresentacao-inicial>img {
+        width: 40%;
+    }
+
+    .apresentacao-inicial>div.apresentacao>button {
+        margin: 0;
+        text-align: left;
+    }
+
+    section.infomacoes {
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+
+        border: solid rgba(128, 128, 128, 0.136) 1px;
+        border-radius: 0.6rem;
+
+        margin-top: 0rem;
+      /* margin-bottom: -5rem; */
+
+    }
+
+    section.infomacoes>div {
+        padding: 0 6rem;
+        text-align: center;
+    }
+
+    section.infomacoes>div:nth-child(3) {
+        border-left: solid gray 1px;
+    }
+
+    section.infomacoes>div:nth-child(2) {
+        border-left: solid gray 1px;
+    }
+
+    .servicos{
+        margin-top: -10rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10rem 3rem;
+    }
+
+    .sobre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10rem 3rem; 
+        flex-direction: row-reverse;
+    }
+
+    .sobre .sobre-nos{
+        width: 50%;
+    }
+
+    .sobre img{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+        align-items: start;
+        padding: 10rem 3rem;
+        align-items: center;
+       
+    }
+
+    .contato address{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+
+/* reponsivida do site */
+@media (min-width: 1028px) {
+    header {
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-desktop ul {
+        display: flex;
+        gap: 2rem;
+
+    }
+
+    .nav-desktop ul li a {
+        text-decoration: none;
+        color: var(--brand-green);
+        font-weight: 600;
+    }
+
+    .nav-desktop ul li a:hover {
+        font-weight: 600;
+        opacity: 0.7;
+    }
+
+    header a {
+        display: block;
+    }
+
+    header .btn-mobile {
+        display: none;
+    }
+
+    header a.btn-agendar-desktop {
+        border: solid 2px var(--brand-green);
+        padding: 1rem;
+        color: var(--brand-green);
+        border-radius: 5rem;
+        text-decoration: none;
+    }
+
+    /* apresentação */
+    main section {
+        width: 90%;
+        text-align: left;
+    }
+
+    div.apresentacao-inicial {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .apresentacao {
+        text-align: left;
+        width: 45%;
+    }
+
+    .apresentacao-inicial>img {
+        margin-top: 6rem;
+        width: 30%;
+    }
+
+    .apresentacao-inicial>div.apresentacao>button {
+        margin: 0;
+        text-align: left;
+    }
+
+    section.infomacoes {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    section.infomacoes>div {
+        padding: 0 6rem;
+        text-align: center;
+    }
+
+    section.infomacoes>div:nth-child(3) {
+        border-left: solid gray 1px;
+    }
+
+    section.infomacoes>div:nth-child(2) {
+        border-left: solid gray 1px;
+    }
+
+    .servicos{
+        margin-top: -10rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .contato > img{
+        width: 50rem;
+    }
+
+}
